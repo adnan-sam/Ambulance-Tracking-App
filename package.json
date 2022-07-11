@@ -1,0 +1,15 @@
+{
+  "name": "xyz",
+  "version": "1.0.0",
+  "description": "An app which will help you tracking nearby ambulances and hospitals and able to contact them.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adnan Sameer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node": "^18.5.0"
+  }
+}
