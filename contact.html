@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Go Aid</title>
+</head>
+<body id="contactPage">
+    <div class="contact_frame">
+        <!-- Navigation bar -->
+        <nav>
+            <div>
+                <img class="logo" src="images/logo img.png" alt="Logo_ASP">
+            </div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn"> <!-- if we click on the bars icon then the check box gets clicked -->
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="#home">Home</a></li> 
+                <li><a href="#about">About Us</a></li> 
+                <li><a class="active" href="#contact">Contact Us</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+        </nav>
+        <div class="contactContents">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class="circle4"></div>
+            <div class="doctor_img">
+                <img class="man" src="images/man.png" alt="Doctor holding tablet">
+            </div>
+            <div class="container">
+            <div class="form">
+                <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form action="index.html" autocomplete="off">
+                    <h3 class="title">Contact us</h3>
+                    <div class="input-container">
+                    <input type="text" name="name" class="input" />
+                    <label for="">Name</label>
+                    <span>Name</span>
+                    </div>
+                    <div class="input-container">
+                    <input type="email" name="email" class="input" />
+                    <label for="">Email</label>
+                    <span>Email</span>
+                    </div>
+                    <div class="input-container">
+                    <input type="tel" name="phone" class="input" />
+                    <label for="">Phone</label>
+                    <span>Phone</span>
+                    </div>
+                    <div class="input-container textarea">
+                    <textarea name="message" class="input"></textarea>
+                    <label for="">Message</label>
+                    <span>Message</span>
+                    </div>
+                    <input type="submit" value="Send" class="btn" />
+                </form>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+<footer>
+    Copyright @ 2022 by ASP
+</footer>
+</html>

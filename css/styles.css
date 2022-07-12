@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 body {
     background-color: #ffff;
     background-image: url('pexels-pixabay-for desktop.jpg');
     margin: 0;
     background-size: 100% 100%;
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: "Poppins", sans-serif;
+    /* font-family: 'Montserrat'; */
 }
 /* Navigation bar from YT */
 nav {
@@ -57,6 +59,7 @@ nav .menu-btn i {
     position: fixed;
     top: 40px;
     left: -150%;
+    z-index: 1;
     background-color: #005A64;
     height: 100vh;
     width: 100%;
@@ -221,6 +224,79 @@ h2, span {
     font-size: 1rem;
     font-weight: 400;
     line-height: normal;
+}
+/*Contact Page*/
+.contact_frame, #contactPage {
+  height: auto;
+  width: auto;
+  padding-bottom: 14%;
+  background: none;
+}
+.circle1 {
+  height: 240px;
+  width: 240px;
+  position: absolute;
+  z-index: -1;
+  left: -4%;
+  top: -2%;
+  border-radius:0 100% 100% 100%;
+  background-color: #00ACB2;
+  background: linear-gradient(135deg, transparent 20%, #00ACB2);
+  opacity: 40%;
+}
+.circle2 {
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  z-index: -1;
+  left: 40%;
+  top: 15%;
+  border-radius:100%;
+  background-color: #00ACB2;
+  background: linear-gradient(135deg, transparent 20%, #00ACB2);
+  opacity: 40%;
+}
+.circle3 {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: -1;
+  left: 10%;
+  top: 80%;
+  border-radius:100%;
+  background-color: #00ACB2;
+  background: linear-gradient(135deg, transparent 20%, #00ACB2);
+  opacity: 40%;
+}
+.circle4 {
+  height: 190px;
+  width: 190px;
+  position: absolute;
+  z-index: -1;
+  left: 35%;
+  top: 82%;
+  border-radius:100%;
+  background-color: #00ACB2;
+  background: linear-gradient(135deg, transparent 20%, #00ACB2);
+  opacity: 40%;
+}
+.submit_form {
+  width: 30vw;
+  height: 70vh;
+  margin-top: 5%;
+  margin-left: 65%;
+  text-align: left;
+  background: #18b700;
+  color: #005A64;
+}
+.contactText {
+  padding-bottom: 2px;
+  margin: 0;
+}
+.contactParaText {
+  width: 60%;
+  font-size: 14px;
+  margin-bottom: 10%;
 }
 /* Footer */
 footer {
