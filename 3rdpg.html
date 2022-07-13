@@ -29,13 +29,15 @@
         </nav>
         <!-- Mobile verification -->
         <div class="new-login-area">
-            <div id='sign-in' class='login-setup-section'>
-                <h3 class="request-otp-header">Enter your 10 digit mobile number</h3>
+            <div id='verify-otp' class="login-setup-section">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                <h3 class="request-otp-header">Verify OTP</h3>
                 <div class="form-group login-label">
-                    <label for="inputnumber">Mobile number<br><br></label>
-                    <input type="number" class="form-control input-edit" placeholder='Enter mobile number' id="number">
-                </div><br>
-                <button type="button" class="submit-btn" id='request-otp'>Get OTP</button>
+                    <label for="inputnumber">One Time Password<br><br></label>
+                    <input type="number" class="form-control input-edit" placeholder='Enter OTP' id="number" autocomplete="off">
+                    <label class="resend-otp"><br><br>Resend otp</label>
+                </div>
+                <button type="button" class="submit-btn">Verify</button>
             </div>
         </div>
     </div>
