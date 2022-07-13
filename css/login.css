@@ -1,0 +1,83 @@
+.new-login-area{
+    width: 100vw;
+    height: 74vh;
+  }
+  h3 {
+    padding-top: 24px;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  label {
+    font-size: 15px;
+  }
+  .request-otp-header {
+    margin: 40px 0px;
+    color: #005A64;
+  }
+  .login-label label {
+    color: #005A64;
+    font-weight: 600;
+  }
+  .input-edit {
+    border: none !important;
+    border-bottom: 2px solid #ccc !important;
+    padding: 6px 0px;
+    opacity: 0.8;
+    background: none;
+    text-align: center;
+  }
+  .input-edit:focus {
+    border-bottom-color: #c74032 !important;
+    box-shadow: none;
+    outline: 0;
+  }
+  .request-otp {
+    margin-top: 40px;
+    background: linear-gradient(#c74032, #91041b);
+    font-size: 14px;
+    color: #fff;
+  }
+  .request-otp:focus {
+    box-shadow: none;
+  }
+  .fa-chevron-left {
+    cursor: pointer;
+  }
+  .resend-otp{
+    margin-top:6px;
+    cursor:pointer;
+  }
+  /* Login Page */
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.submit-btn {
+  background: #00ACB2;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  background: #00ACB2;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-right: 40px;
+  box-shadow: 6px 6px 8px #888888;
+  margin: 20px;
+}
+.submit-btn:hover {
+  background:#005A64;
+  /* color: #005A64; */
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.resend-otp {
+  margin: 10px;
+}
+label {
+  margin: 10px;
+  color: #005A64;
+}

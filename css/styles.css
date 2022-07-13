@@ -19,7 +19,8 @@ nav {
   padding: 0px 50px 0px 100px;
 }
 .logo {
-  height: 3rem;
+  margin: auto;
+  height: 6vh;
   width: auto;
 }
 nav ul {
@@ -47,6 +48,7 @@ nav .menu-btn i {
   font-size: 22px;
   cursor: pointer;
   display: none;
+  z-index: 200;
 }
 #click {
   display: none;
@@ -298,6 +300,7 @@ h2, span {
   font-size: 14px;
   margin-bottom: 10%;
 }
+
 /* Footer */
 footer {
     font-family: 'Montserrat';

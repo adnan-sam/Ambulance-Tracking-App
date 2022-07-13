@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 #contactPage {
-    background: #e9f1f2;
+    background: #fff;
 }
 body,
 input,
@@ -275,7 +275,7 @@ textarea.input {
   opacity: 0.2;
 }
 
-@media (max-width: 850px) {
+/* @media (max-width: 850px) {
   .form {
     grid-template-columns: 1fr;
   }
@@ -353,12 +353,18 @@ textarea.input {
   .btn {
     padding: 0.45rem 1.2rem;
   }
-}
+} */
 .doctor_img, .man {
     position: absolute;
-    width:18vw;
+    width:24vw;
     height: auto;
-    left: 14%;
+    left: 17%;
+    top: 28%;
+    z-index: -2;
+}
+.man {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 footer {
     position: absolute;
