@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Map css link -->
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>GO AID</title>
+</head>
+<body>
+    <div class="body_frame">
+        <!-- Navigation bar -->
+        <nav>
+            <div>
+                <img class="logo" src="images/Logo.png" alt="Logo_ASP">
+            </div>
+            <input type="checkbox" id="click">
+             <label for="click" class="menu-btn"> <!-- if we click on the bars icon then the check box gets clicked -->
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="#home">Home</a></li> 
+                <li><a href="#about">About Us</a></li> 
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+        </nav>
+        <!-- Map pic -->
+        <div><img class="map_pic" src="images/temp_map.png" alt="Show location here"></div>
+        <div class="container">
+            <div class="box">
+                <div class="newsHeading"></div>
+                    <button class="btn gps">Track using GPS</button>
+                    <div class="manual_gps">
+                        <input class="form-control input-edit" type="text" placeholder="Enter location manually">
+                        <button class="btn gps">Search</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    Copyright ©️ 2022. GO AID
+</footer>
+</html>

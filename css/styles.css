@@ -8,6 +8,7 @@ body {
     font-family: "Poppins", sans-serif;
     /* font-family: 'Montserrat'; */
 }
+
 /* Navigation bar from YT */
 nav {
   overflow: hidden;
@@ -300,7 +301,6 @@ h2, span {
   font-size: 14px;
   margin-bottom: 10%;
 }
-
 /* Footer */
 footer {
     font-family: 'Montserrat';
@@ -308,6 +308,7 @@ footer {
     font-weight: 300;
     font-size: 13px;
     line-height: 16px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 

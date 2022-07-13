@@ -1,0 +1,39 @@
+.map_pic {
+    padding: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+.container {
+    height: 30rem;
+    width: 25rem;
+    background-color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+    border-radius: 15px;
+}
+.box {
+    text-align: center;
+}
+.newsHeading {
+    width: auto;
+    height: 60px;
+    background: #00ACB2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+.gps {
+    padding: 10px;
+    margin: 15px;
+    font-size: 15px;
+    margin-bottom: 40px;
+    left: 0;
+    right: 0;
+}
+.btn {
+    margin-top: 50px;
+}
